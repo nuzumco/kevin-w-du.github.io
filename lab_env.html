@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108821978-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108821978-2');
+</script>
+
+
+<!-- Meta Data -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<!-- Site Title -->
+<title>SEED Project</title>
+
+<!-- Link to Style External Sheet -->
+<link href="style_home.css" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+<div id="page_wrapper">
+
+<div id="page_header">
+<img src="img/seed_logo.png"/>
+</div>
+
+<div id="menu_bar">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="labs.html">SEED Labs</a></li>
+<li><a href="lab_env.html">Lab Setup</a></li>
+
+   <li class="has-sub">Documentations
+        <ul>
+            <li><a href="instructor_manual.html">Instructor Guidelines and Manuals</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="documentation.html">Miscellaneous Manuals</a></li>
+        </ul>
+   </li>
+   
+   <li><a href="workshop.html">Workshops</a></li>
+   <li class="has-sub">About
+        <ul>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="fundings.html">Fundings</a></li>
+            <li><a href="http://www.cis.syr.edu/~wedu/seed/seed_adoption.html">Who are using SEED Labs?</a></li>
+        </ul>
+   </li>
+   <li><a href="news.html">News</a></li>
+</ul>
+</div>
+
+   
+<div id="banner_setup">
+<div id="banner_text">
+<h3>Lab Environment Setup</h3>
+<p style="margin-top: -10px">
+<ul style="margin-left: -20px">
+	<li>There is no need for a physical lab space.</li>
+	<li>All the lab activities can be carried out on <span>students' computers</span>.</li>
+	<li>We provide VM images, and all the labs have been <span>tested</span>
+	in the images.</li>
+	<li>All software used in the lab environment is open-source and <span>free</span>.</li>
+</ul>
+</p>
+<p>
+</p>
+</div>
+</div>
+
+
+<div id="content_wrapper1">
+   
+
+<div id="single_side">
+
+<h2>Virtual Machine Software (VirtualBox)</h2>
+<p>
+Install the free <a href="http://www.virtualbox.org/">VirtualBox</a>. 
+Our pre-built VM images can be used by both VMWare and VirtualBox. Here are some
+instructions for VirtualBox:
+</p>
+<ul>
+   <li><a href="http://www.cis.syr.edu/~wedu/seed/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf">
+      Run SEED VM on VirtualBox</a>.</li>
+
+<!--
+   <li><a href="http://www.cis.syr.edu/~wedu/seed/Documentation/VirtualBox/LoadingMultiVMs.pdf">Loading Multiple VMs into VirtualBox: Problems and Solutions</a>.</li>
+-->
+
+</ul>
+       
+      
+
+<h2>Pre-built Virtual Machine Images (Ubuntu)</h2>
+<p>
+All the SEED labs should be conducted in our pre-built virtual machine image,
+because we have installed all the necessary tools, software, and
+libraries that are needed by the SEED labs. Students just need to download the VM, and 
+run it using VirtualBox (or VMWare).
+</p>
+     
+<ul>
+
+	<li><b><font color=red>New: </font>SEEDUbuntu16.04.zip</b>: This VM was built in May 2018,
+	after a full year's testing.
+  <ul>
+  <li> Download the image from one of the following servers:
+  <ul>    <li>Google Drive (fast): <a href="https://drive.google.com/file/d/1HxdUhq-J_-_QKyjngpH9m6Kmuvy0_68a/view?usp=sharing">SEEDUbuntu-16.04-32bit.zip</a></li> 
+	  <li>Backup Server (slow): <a href="http://jupiter.syr.edu/seed/images/SEEDUbuntu-16.04-32bit.zip">SEEDUbuntu-16.04-32bit.zip</a></li>
+            <li>MD5 value: 2d4aefc4624f4676674dc8e19cf7cfec</li>
+       </ul></li>
+  <li> <a href="http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu16_04_VM/Ubuntu16_04_VM_Manual.pdf">
+       User Manual</a>: includes the account
+       and password information, list of software and servers installed, and configuration.</li>
+  <li> Unzip SEEDUbuntu-16.04-32bit.zip and you should be able to see a folder.
+       Follow the <a href="http://www.cis.syr.edu/~wedu/seed/Labs_16.04/Documents/SEEDVM_VirtualBoxManual.pdf">this document</a> to load the image into VirtualBox.</a>
+
+  </ul>
+</li>
+<p></p>
+<li><b>SEEDUbuntu12.04.zip</b>: This VM is built was Jaunary 2016; it will be gradually phased out.
+  <ul>
+  <li> Download the image from the following server
+       (the MD5 checksum of the file is 6ec9c429a2f4a9163530ada20f0621dc):
+    <ul>
+    <li> <a href="http://www.cis.syr.edu/~wedu/SEEDUbuntu12.04.zip">
+       Main server</a></li>
+    <li> <a href="http://jupiter.syr.edu/seed/images/12_04_v3/SEEDUbuntu12.04.zip">
+       Backup server</a></li>
+    </ul></li>
+  <li> <a href="http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu12_04_VM/Ubuntu12_04_VM_Manual.pdf">
+       User Manual</a>: includes the account
+       and password information, list of software and servers installed, and configuration.</li>
+
+  <li> <a href="http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu12_04_VM/CustomizationInstruction.pdf">
+       VM Customization</a>: Some labs require multiple VMs; to help you easily identify which VMs you are
+       in, you can do some simple customization. You need to download
+       this file (<a  href="http://www.cis.syr.edu/~wedu/seed/Documentation/Ubuntu12_04_VM/Customization.zip">Customization.zip</a>) as well</a>
+  </ul>
+</li>
+
+
+
+<!--
+<p></p>
+<li>(<font color="red"><b>Cloud Approach</b></font>) 
+If you prefer to run the above SEEDUbuntu12.04 VM from <b>Amazon Cloud (AWS)</b>, you can find 
+it (SEEDUbuntu12.04-Generic) in AWS's community AMIs. Once you 
+have launched the VM, you can either use RDC (Remote Desktop Connection) or 
+SSH to connect to your VM instance. This approach is very good for students who do not have their 
+own computers or their computers are not powerful enough to run VM locally.
+<ul>
+   <li><a href="http://www.cis.syr.edu/~wedu/seed/Documentation/Cloud/SEEDVM_Cloud.pdf">
+        Instructions for both students and instructors.</li>
+</ul>
+-->
+
+
+</ul>
+
+
+
+<div id="page_footer" class="green" >
+<p>
+Copyright &copy; Wenliang Du, Syracuse University
+</p>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
